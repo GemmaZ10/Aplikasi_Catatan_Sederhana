@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hasil Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .card {
+            background: white;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 400px;
+        }
+        h2 {
+            color: #007BFF;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        a:hover {
+            color: #004c99;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Data Anda Berhasil Dikirim ✅</h2>
+        <p><strong>Nama:</strong> {{ nama }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <p><strong>Pesan:</strong> {{ pesan }}</p>
+        <a href="/">Kembali ke Halaman Utama</a>
+    </div>
+</body>
+</html>
